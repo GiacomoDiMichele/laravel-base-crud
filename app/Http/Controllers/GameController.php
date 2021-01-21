@@ -49,7 +49,10 @@ class GameController extends Controller
      */
     public function show($id)
     {
-        //
+        $data = [
+          'game' => game::find($id)
+      ];
+      return view('games.show', $data);
     }
 
     /**

@@ -14,6 +14,8 @@
                                 <th scope="col">Anno di uscita</th>
                                 <th scope="col">Produttore</th>
                                 <th scope="col">Prezzo</th>
+                                <th scope="col">Dettagli</th>
+
                             </tr>
                         </thead>
                         <tbody>
@@ -34,6 +36,12 @@
                                     <td>
                                         {{ $game->price }}
                                     </td>
+                                    <td>
+                                       <a href="{{ route('games.show', ['game' => $game->id]) }}"
+                                           class="btn btn-info">
+                                           Dettagli
+                                       </a>
+                                   </td>
                                 </tr>
                             @endforeach
                         </tbody>
