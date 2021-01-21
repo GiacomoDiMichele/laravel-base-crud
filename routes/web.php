@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', '@HomeController@index');
+Route::get('/', 'HomeController@index')->name('homepage');
 
-Route::resource('/Games', 'GameController');
+Route::resource('/games', 'GameController');

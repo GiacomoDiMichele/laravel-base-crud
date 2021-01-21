@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        <h1>test</h1>
-    </body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="welcome-text">
+                    <h1 class="">Benvenuto nella homepage</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
