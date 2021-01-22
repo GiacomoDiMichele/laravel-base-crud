@@ -10944,3 +10944,17 @@ a.text-dark:focus {
   }
 }
 
+a {
+  font-size: 1.4em;
+}
+
+.welcome-text {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+}
+

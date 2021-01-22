@@ -6,6 +6,12 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="title-games">Lista Giochi</h1>
+                    <div class="create-game">
+                        <a href="{{ route('games.create') }}"
+                            class="btn btn-info">
+                            Inserisci un nuovo gioco
+                        </a>
+                    </div>
                     <table class="table-games">
                         <thead>
                             <tr>
@@ -34,7 +40,7 @@
                                         {{ $game->productor }}
                                     </td>
                                     <td>
-                                        {{ $game->price }}
+                                        {{ $game->price . '$' }}
                                     </td>
                                     <td>
                                        <a href="{{ route('games.show', ['game' => $game->id]) }}"

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="welcome-text">
-                    <h1 class="">Benvenuto nella homepage</h1>
+                    <h1 class="text-center">Benvenuto nella homepage</h1>
                 </div>
             </div>
         </div>
